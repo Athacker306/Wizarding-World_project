@@ -1,0 +1,226 @@
+@font-face {
+    font-family: Sofia Pro;
+    src: url(fonts/normal_normal_300.woff2) format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(images/bg-26e89fc86cc5343ce0263f25d15704c7.jpg);
+    background-color: #10141b;
+    background-size: cover; 
+    background-position: top; 
+    background-repeat: no-repeat;
+    font-family: Sofia Pro,Helvetica,ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3,Hiragino Kaku Gothic Pro,Osaka,ãƒ¡ã‚¤ãƒªã‚ª,Meiryo,ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯,MS PGothic,sans-serif;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: Sofia Pro, Helvetica, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+
+}
+
+input{
+    color: white;
+}
+.login_page{
+    margin-top:2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.logo {
+    display: flex; 
+    justify-content: center; 
+}
+
+#wizarding_world_logo{
+    width: 7em;
+}
+.AuthHeader_back__UsTEg{
+    background-color: white;
+}
+.back_icon {
+    background-color:transparent;
+    border:none;
+}
+.back_icon:hover img {
+    opacity: 0.5; /* Dull the image on hover */
+  }
+
+/* ///////////////////////////////////////////////////////////////// */
+
+hr {
+    display: block; 
+    border: none; 
+    border-top: 1px solid #6d6a6a; 
+    width: 100%;
+    min-width: 5em; 
+    /* margin: 0 10px;  */
+}
+
+.Auth_altHeader__5ykY6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.Auth_altHeader__5ykY6 > * {
+    margin: 0 10px; 
+}
+.Auth_altHeader__5ykY6 h1{
+    font-size:2em;
+    font-weight: bold;
+}
+.logo_back_Icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative
+}
+
+.back_button{
+    position:absolute;
+    left: 0;
+}
+
+button{
+    margin: 0;
+    padding: 0;
+}
+ 
+.input_field{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+.input1 ,.input2{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+.input_field input{
+    background-color: rgb(15, 15, 30);
+    border: none;
+    border  : 1px solid #6d6a6a; 
+    height: 4em;
+}
+.input_field a{
+    color: rgb(184, 177, 246) ;
+}
+.input_field .login_button{
+    height: 4em;
+    border-radius: 2em;
+    width: 100%;
+    background-color: rgb(133, 123, 222) ;
+    color: white;
+    font-weight: bold;
+}
+.input_field h2{
+    margin: 0;
+    text-align: center;
+}
+
+.sign_up{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.sign_up_button{
+    height: 4em;
+    border  : 1px solid #fdfdfd;
+    border-radius: 2em;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.sign_up_button:hover {
+    background-color: #ffffff; 
+    color: #000000;
+}
+.country_list img{
+    width: 2em;
+}
+
+.country_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+}
+
+/* ///////////////////////////////////////////////////// */
+
+
+@media (max-width: 768px) {
+    body {
+        justify-content: flex-start; /* Aligns the content properly on mobile */
+        padding: 1em;
+    }
+
+    .login_page {
+        width: 100%;
+        margin-top: 1em;
+        padding: 1em;
+        max-width: 90%;
+    }
+
+    .Auth_altHeader__5ykY6 h1 {
+        font-size: 1.5em;
+    }
+
+    .input_field input, .input_field .login_button, .sign_up_button {
+        height: 3.5em;
+        font-size: 1em;
+    }
+
+    .sign_up_button {
+        height: 3.5em;
+        font-size: 1em;
+    }
+
+    #wizarding_world_logo {
+        width: 5em;
+    }
+
+    .country_list img {
+        width: 2.5em;
+    }
+    
+    hr {
+        min-width: 90%; /* Adjust min-width for mobile screens */
+        
+    }
+
+}
+
+/* Additional small screen optimization */
+@media (max-width: 480px) {
+    .Auth_altHeader__5ykY6 h1 {
+        font-size: 1.2em;
+    }
+
+    .login_page {
+        max-width: 100%;
+        padding: 0.5em;
+    }
+
+    .input_field input, .input_field .login_button, .sign_up_button {
+        height: 3em;
+        font-size: 0.9em;
+    }
+    hr {
+        min-width: 10%;
+    }
+}

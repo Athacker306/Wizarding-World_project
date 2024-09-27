@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ribbon{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.box1{
+    height: 200px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease-in-out;
+    font-size: 18px;
+
+}
+.box1 img{
+    height: 120px;
+    width: 111px;
+}
+
+.box1:hover{
+    z-index: 10;
+    transform: scale(1.1);
+}
+.box2{
+    height: 200px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease-in-out;
+}
+.box2 img{
+    height: 120px;
+    width: 111px;
+}
+.box3{
+    height: 200px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease-in-out;
+}
+.box3 img{
+    height: 120px;
+    width: 111px;
+}
+.box4{
+    height: 200px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease-in-out;
+}
+.box4 img{
+    height: 120px;
+    width: 111px;
+}
+.box2:hover{
+    z-index: 10;
+    transform: scale(1.1);
+}
+.box3:hover{
+    z-index: 10;
+    transform: scale(1.1);
+}
+.box4:hover{
+    z-index: 10;
+    transform: scale(1.1);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    width: 30%;
+}
+.content h2{
+    font-size: 48px;
+}
+.content button{
+width: 50%;
+background: linear-gradient(90deg,#59489f,#463c9d 48.96%,#464ab2);
+height: 50px;
+border-radius: 50px;
+border: none;
+}
+.content a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.btn:hover{
+    background-color: black;
+}
+.quizz{
+    width: 100%;;
+}
+.section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  padding: 50px;
+}
+#pa{
+    font-size: 36px;
+}
+.section2 a{
+    color: black;
+}
+.in{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cont1{
+    width: 350px;
+    height: 240px;
+    background-image: url(./download5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 22px;
+    position: relative;
+}
+.cont1 h3{
+    position: absolute;
+    color: white;
+   top:50%;
+   left: 5%;
+   font-weight: 400;
+}
+.cont2{
+    width: 350px;
+    height: 240px;
+    background-image: url(./download6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 22px;
+    position: relative;
+}
+.cont3{
+    width: 350px;
+    height: 240px;
+    background-image: url(./download7.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 22px;
+    position: relative;
+}
+.cont2 h3{
+    position: absolute;
+    color: white;
+   top:50%;
+   left: 5%;
+   font-weight: 400;
+}
+.cont3 h3{
+    position: absolute;
+    color: white;
+   top:50%;
+   left: 5%;
+   font-weight: 400;
+}
+.cel{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cel img{
+    height: 300px;
+    width: 500px;
+}
+.con{
+    height: 350px;
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+.con h2{
+    font-size: 46px;
+    font-weight: 700;
+}

@@ -1,0 +1,231 @@
+
+@font-face {
+    font-family: Sofia Pro;
+    src: url(fonts/normal_normal_300.woff2) format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+.sign_up_page{
+    margin-top:2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+.logo {
+    display: flex; 
+    justify-content: center; 
+}
+
+
+
+/* Base Styling */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(images/bg-26e89fc86cc5343ce0263f25d15704c7.jpg);
+    background-color: #10141b;
+    background-size: contain; 
+    background-position: top; 
+    background-repeat: no-repeat;
+    font-family: Sofia Pro,Helvetica,ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3,Hiragino Kaku Gothic Pro,Osaka,ãƒ¡ã‚¤ãƒªã‚ª,Meiryo,ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯,MS PGothic,sans-serif;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: Sofia Pro, Helvetica, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+
+}
+.sign_up_page_page{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+  
+  a {
+    color: rgb(184, 177, 246) ;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Container for sign up page */
+
+  
+  .sign_up_page_page {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Back button and logo */
+  .logo_back_Icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .back_button {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .back_icon img {
+    width: 100%;
+    height: auto;
+  }
+  hr {
+    display: block; 
+    border: none; 
+    border-top: 1px solid #6d6a6a; 
+    width: 100%;
+    min-width: 5em; 
+    /* margin: 0 10px;  */
+}
+
+form input{
+    background-color: rgb(26, 26, 34);
+    border: none;
+    border  : 1px solid #6d6a6a; 
+    height: 4em;
+    color: white;
+}
+
+form p{
+    font-size: .85em;
+}
+
+  .Auth_altHeader__5ykY6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.Auth_altHeader__5ykY6 > * {
+    margin: 0 10px; 
+}
+.Auth_altHeader__5ykY6 h1{
+    white-space: nowrap; 
+    font-size:2em;
+    font-weight: bold;
+    display:inline-block;
+}
+
+
+  .logo {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  #wizarding_world_logo {
+    width: 7em;
+    height: auto;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+ label{
+    font-size: .8em;
+ }
+  
+  form input[type="submit"] {
+    background-color: #5a67d8;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-group{
+    display: flex;
+    flex-direction: column;
+    gap: .6em;
+  }
+
+  form input[type="submit"]:hover {
+    background-color: #434190;
+  }
+
+  .sign_up{
+    color: white;
+    background-color: red;
+  }
+
+.names{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.login_button{
+    height: 4em;
+    border  : 1px solid #fdfdfd;
+    border-radius: 2em;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.login_button:hover {
+    background-color: #ffffff; 
+    color: #000000;
+}
+
+.sign_up_button{
+    height: 4em;
+    border-radius: 2em;
+    width: 100%;
+    background-color: rgb(133, 123, 222) ;
+    color: white;
+    font-weight: bold;
+}
+
+.country_list img{
+    width: 2em;
+}
+
+.country_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+}
+
+
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .sign_up_page_page {
+      padding: 10px;
+    }
+  
+    .logo_back_Icon {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    #wizarding_world_logo {
+      width: 100px;
+    }
+  }
+  
