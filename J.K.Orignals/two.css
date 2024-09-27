@@ -1,0 +1,140 @@
+.InfoModal_innerModal__om3aU {
+    background: #fff;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    color: #696b78
+}
+
+@media(min-width: 768px) {
+    .InfoModal_innerModal__om3aU {
+        width:600px;
+        height: auto;
+        min-height: 454px;
+        padding: 20px 60px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%)
+    }
+}
+
+.InfoModal_innerModal__om3aU.InfoModal_autoSize__whr_n {
+    height: auto;
+    width: auto;
+    padding: 0;
+    min-height: auto
+}
+
+.InfoModal_innerModal__om3aU.InfoModal_bumper__myqd1 {
+    width: 80vw;
+    height: auto;
+    min-height: 20vh;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    box-sizing: border-box;
+    text-align: center
+}
+
+@media(min-width: 576px) {
+    .InfoModal_innerModal__om3aU.InfoModal_bumper__myqd1 {
+        padding:20px 60px;
+        min-height: 280px
+    }
+}
+
+@media(min-width: 768px) {
+    .InfoModal_innerModal__om3aU.InfoModal_bumper__myqd1 {
+        width:570px
+    }
+}
+
+@media(min-width: 1042px) {
+    .InfoModal_innerModal__om3aU.InfoModal_bumper__myqd1 {
+        width:596px;
+        min-height: 328px
+    }
+}
+
+.InfoModal_childCloseButton__Qj29x {
+    position: absolute;
+    padding: 0;
+    top: 18px;
+    right: 35px;
+    width: 32px;
+    height: 32px;
+    background: none;
+    border: none;
+    cursor: pointer
+}
+
+@media(min-width: 768px) {
+    .InfoModal_childCloseButton__Qj29x {
+        top:35px;
+        right: 35px
+    }
+}
+
+.InfoModal_secondaryChildCloseButton__nx9KE {
+    position: absolute;
+    padding: 0;
+    top: 17px;
+    right: 17px;
+    width: 24px;
+    height: 24px;
+    background: none;
+    border: none;
+    cursor: pointer
+}
+
+.InfoModal_overlay__DQnUP {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10000;
+    background: rgba(16,20,27,.8);
+    -webkit-overflow-scrolling: touch
+}
+
+.InfoModal_overlay__DQnUP .InfoModal_closeButton__9w7qc {
+    display: none
+}
+
+.InfoModal_closeButton__9w7qc {
+    position: absolute;
+    top: 4%;
+    right: 3%;
+    width: 32px;
+    height: 32px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999
+}
+
+.InfoModal_closeButton__9w7qc:after,.InfoModal_closeButton__9w7qc:before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 50%;
+    background: #fff
+}
+
+.InfoModal_closeButton__9w7qc:before {
+    transform: rotate(45deg)
+}
+
+.InfoModal_closeButton__9w7qc:after {
+    transform: rotate(-45deg)
+}
+
+/*# sourceMappingURL=24973f496ac4a2c1.css.map*/

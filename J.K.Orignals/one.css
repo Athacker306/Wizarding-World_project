@@ -1,0 +1,1489 @@
+.MyLayout_navigationSpacer__DU_L_ {
+    height: 108px
+}
+
+.MyLayout_navigationSpacer__DU_L_.MyLayout_ribbonActive__6Whdf {
+    height: 147px
+}
+
+@media(max-width: 1150px) {
+    .MyLayout_navigationSpacer__DU_L_ {
+        height:80px
+    }
+
+    .MyLayout_navigationSpacer__DU_L_.MyLayout_ribbonActive__6Whdf {
+        height: 119px
+    }
+
+    .MyLayout_blurContainer__RPQTX.MyLayout_blur__oh2Hz {
+        -moz-filter: blur(10px);
+        -o-filter: blur(10px);
+        -ms-filter: blur(10px);
+        filter: blur(10px)
+    }
+}
+
+.NavHint_root__oe1k_ {
+    margin: 20px auto
+}
+
+.NavHint_root__oe1k_ .NavHint_inner__tsVf3 {
+    width: 30px;
+    height: 60px;
+    margin: auto
+}
+
+.VideoHero_video__dRe1D {
+    object-fit: cover;
+    background-color: transparent;
+    width: 100%;
+    height: 100%
+}
+
+.HubHero_root__V1rqG {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    height: 108vw;
+    max-height: 100vh
+}
+
+@media(min-width: 768px) {
+    .HubHero_root__V1rqG {
+        height:37.5vw;
+        min-height: 400px
+    }
+}
+
+.HubHero_root__V1rqG video {
+    z-index: auto;
+    position: absolute
+}
+
+.HubHero_root__V1rqG .HubHero_heroInner__3Bm3x {
+    position: relative
+}
+
+@media(max-width: 768px) {
+    .HubHero_root__V1rqG .HubHero_heroInner__3Bm3x {
+        padding:30px 0
+    }
+}
+
+@media(-webkit-min-device-pixel-ratio: 2),(min-resolution:192dpi) {
+    .HubHero_root__V1rqG {
+        background-image:var(--background-image-2x);
+        justify-content: center
+    }
+}
+
+.HubHero_root__V1rqG .HubHero_header__u_ZLN {
+    font-family: Bluu Next,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,serif;
+    font-weight: 700;
+    font-size: 3.3333333333em;
+    line-height: normal;
+    margin: 0;
+    color: #faf6f0;
+    text-align: center;
+    letter-spacing: .0555555556em
+}
+
+@media only screen and (max-width: 992px) {
+    .HubHero_root__V1rqG .HubHero_header__u_ZLN {
+        font-size:1.7777777778em;
+        margin-top: 4.4444444444em
+    }
+}
+
+.HubHero_root__V1rqG .HubHero_subHeader__usGtR {
+    font-family: Sofia Pro,Helvetica,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,sans-serif;
+    font-size: 1.3333333333em;
+    line-height: 1.5;
+    color: #dfdbd9;
+    text-align: center;
+    margin-top: 1.6666666667em
+}
+
+@media only screen and (max-width: 992px) {
+    .HubHero_root__V1rqG .HubHero_subHeader__usGtR {
+        font-size:1em;
+        line-height: 1.33;
+        max-width: 17.5555555556em;
+        margin: 1.1111111111em auto
+    }
+}
+
+@media(min-width: 768px) {
+    .HubHero_root__V1rqG {
+        justify-content:center
+    }
+
+    .HubHero_root__V1rqG>div {
+        max-width: 38.8888888889em
+    }
+}
+
+.HubHero_navHint__HnJ3C {
+    margin-bottom: -3.6111111111em
+}
+
+@media only screen and (max-width: 992px) {
+    .HubHero_navHint__HnJ3C {
+        margin-bottom:0
+    }
+}
+
+.HubFeatureItem_root___qlhz {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none
+}
+
+.HubFeatureItem_root___qlhz p {
+    font-size: 20px;
+    line-height: 30px
+}
+
+@media(max-width: 768px) {
+    .HubFeatureItem_root___qlhz p {
+        font-size:16px;
+        line-height: 20px
+    }
+}
+
+.HubFeatureItem_imgContainer__2bhdN {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.HubFeatureItem_imgContainer__2bhdN:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    opacity: .3;
+    border: 1px solid #fff
+}
+
+.HubFeatureItem_imgContainer__2bhdN .HubFeatureItem_img__dhhP2 {
+    vertical-align: bottom;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%
+}
+
+.HubFeatureItem_contentContainer___wgL3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 110px
+}
+
+@media(max-width: 768px) {
+    .HubFeatureItem_contentContainer___wgL3 {
+        padding:unset;
+        max-width: 17.5em
+    }
+}
+
+.HubFeatureItem_eyeBrow__eea5l {
+    text-align: center;
+    font-family: Mason Sans OT,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.38;
+    letter-spacing: normal;
+    color: #231e4e
+}
+
+@media(max-width: 768px) {
+    .HubFeatureItem_eyeBrow__eea5l {
+        font-size:14px;
+        line-height: 2.71
+    }
+}
+
+.HubFeatureItem_title__o3VJg {
+    text-align: center;
+    object-fit: contain;
+    font-family: Bluu Next,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,serif;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #10141b
+}
+
+@media(max-width: 768px) {
+    .HubFeatureItem_title__o3VJg {
+        font-size:24px;
+        line-height: 1.33
+    }
+}
+
+.HubFeatureItem_author__oySEx {
+    text-align: center;
+    font-family: Sofia Pro,Helvetica,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #777;
+    margin-top: 17px
+}
+
+@media(max-width: 768px) {
+    .HubFeatureItem_author__oySEx {
+        font-size:14px;
+        line-height: 24px
+    }
+}
+
+.HubFeatures_root__dCc_T {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 52px;
+    grid-column-gap: 50px;
+    justify-content: space-between;
+    margin-top: 82px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media(max-width: 1042px) {
+    .HubFeatures_root__dCc_T {
+        grid-template-columns:auto;
+        justify-content: center;
+        margin-top: 30px;
+        grid-row-gap: 42px
+    }
+}
+
+@media(max-width: 768px) {
+    .HubFeatures_root__dCc_T {
+        grid-template-columns:auto;
+        justify-content: center;
+        margin-top: 30px;
+        grid-row-gap: 42px
+    }
+}
+
+.HubCurated_root__M0K15 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    overflow: hidden
+}
+
+.HubCurated_root__M0K15 p {
+    font-size: 20px;
+    line-height: 30px
+}
+
+@media(max-width: 768px) {
+    .HubCurated_root__M0K15 p {
+        font-size:16px;
+        line-height: 24px
+    }
+}
+
+.HubCurated_headerContainer___5qcH {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 140px
+}
+
+@media(max-width: 768px) {
+    .HubCurated_headerContainer___5qcH {
+        height:130px
+    }
+}
+
+.HubCurated_header__8NDyS {
+    font-family: Bluu Next,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,serif;
+    -webkit-text-stroke: 1px hsla(36,50%,96%,.2);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #10141b
+}
+
+@media(max-width: 768px) {
+    .HubCurated_header__8NDyS {
+        font-size:32px
+    }
+}
+
+.HubCurated_container__k9sF9 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw
+}
+
+@media(max-width: 768px) {
+    .HubCurated_container__k9sF9 {
+        flex-direction:column
+    }
+}
+
+.HubCurated_imgContainer__BwMMb {
+    align-self: flex-start;
+    position: relative;
+    width: 60vw;
+    height: 60vw
+}
+
+@media(min-width: 1042px) {
+    .HubCurated_imgContainer__BwMMb {
+        width:700px;
+        height: 700px
+    }
+}
+
+@media(max-width: 768px) {
+    .HubCurated_imgContainer__BwMMb {
+        width:calc(100vw - 30px);
+        height: 100vw
+    }
+}
+
+.HubCurated_imgContainer__BwMMb>div {
+    display: flex
+}
+
+.HubCurated_contentRight__xWHwb {
+    width: calc(40vw + 51px);
+    min-height: 60vw;
+    position: relative;
+    background-color: #242633;
+    margin-left: -50px;
+    margin-top: 41px
+}
+
+@media(min-width: 1042px) {
+    .HubCurated_contentRight__xWHwb {
+        width:595px;
+        height: auto;
+        min-height: 700px
+    }
+}
+
+@media(max-width: 768px) {
+    .HubCurated_contentRight__xWHwb {
+        margin-left:30px;
+        margin-top: -61px;
+        width: calc(100vw - 30px);
+        min-height: 10vh
+    }
+}
+
+.HubCurated_contentRight__xWHwb .HubCurated_textContainer__NlkGr {
+    padding: 93px 0 0 107px
+}
+
+@media(max-width: 1042px) {
+    .HubCurated_contentRight__xWHwb .HubCurated_textContainer__NlkGr {
+        padding:54px 0 0 74px
+    }
+}
+
+@media(max-width: 768px) {
+    .HubCurated_contentRight__xWHwb .HubCurated_textContainer__NlkGr {
+        padding:18px 0 0 35px
+    }
+}
+
+.HubCurated_contentRight__xWHwb .HubCurated_title__6iNE1 {
+    width: 100%;
+    font-family: Mason Sans OT,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,serif;
+    font-size: 16px;
+    line-height: 2.38;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 6px
+}
+
+@media(max-width: 1042px) {
+    .HubCurated_contentRight__xWHwb .HubCurated_title__6iNE1 {
+        font-size:14px;
+        line-height: 2.71;
+        color: #ededef
+    }
+}
+
+.HubCurated_contentRight__xWHwb .HubCurated_subTitle__nRH2W {
+    width: 60%;
+    font-family: Bluu Next,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.25;
+    margin-bottom: 16px;
+    color: #fff
+}
+
+@media(max-width: 1042px) {
+    .HubCurated_contentRight__xWHwb .HubCurated_subTitle__nRH2W {
+        width:85%;
+        font-size: 24px;
+        line-height: 1.33;
+        font-weight: 400
+    }
+}
+
+.HubCurated_contentRight__xWHwb .HubCurated_description__ml8k4 {
+    width: 70%;
+    font-family: Sofia Pro,Helvetica,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    color: #fff
+}
+
+@media(max-width: 768px) {
+    .HubCurated_contentRight__xWHwb .HubCurated_description__ml8k4 {
+        width:90%
+    }
+}
+
+@media(max-width: 1042px) {
+    .HubCurated_contentRight__xWHwb .HubCurated_description__ml8k4 {
+        font-size:16px;
+        line-height: 1.5
+    }
+}
+
+.HubCurated_contentRight__xWHwb .HubCurated_author__HUEk_ {
+    font-family: Sofia Pro,Helvetica,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #9fa1ad;
+    margin-bottom: 8px
+}
+
+@media(max-width: 1042px) {
+    .HubCurated_contentRight__xWHwb .HubCurated_author__HUEk_ {
+        font-size:14px;
+        line-height: 1.71
+    }
+}
+
+.HubCurated_contentRight__xWHwb .HubCurated_featureBtn__WJDGC {
+    margin-bottom: 60px
+}
+
+.HubCurated_contentRight__xWHwb .HubCurated_featureBtn__WJDGC .HubCurated_btn__BI7xl {
+    text-transform: uppercase;
+    min-width: 151px
+}
+
+@media(max-width: 1042px) {
+    .HubCurated_contentRight__xWHwb .HubCurated_featureBtn__WJDGC {
+        margin-bottom:60px
+    }
+}
+
+@media(max-width: 768px) {
+    .HubCurated_contentRight__xWHwb .HubCurated_featureBtn__WJDGC {
+        margin-bottom:30px
+    }
+}
+
+.Seperator_flourish__mzCGD {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px
+}
+
+.Seperator_flourish__mzCGD .Seperator_hr__Zm_Py {
+    border-bottom: 1px solid #757575;
+    opacity: .26;
+    flex: 1 1
+}
+
+.Seperator_flourish__mzCGD img {
+    margin: 0 10px 20px
+}
+
+.ArticleGambit_gambit__cfP2b {
+    font-family: Sofia Pro,Helvetica,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+    min-height: 120px;
+    white-space: pre-wrap
+}
+
+.ArticleGambit_gambit__cfP2b.ArticleGambit_left__BtgC2 {
+    text-align: left
+}
+
+@media(min-width: 768px) {
+    .ArticleGambit_gambit__cfP2b.ArticleGambit_default__bs8ip {
+        font-size:24px;
+        line-height: 36px
+    }
+}
+
+.ArticleGambit_gambit__cfP2b.ArticleGambit_small__dtbw7 {
+    font-size: 14.4px;
+    line-height: 21.6px;
+    min-height: 0
+}
+
+@media(min-width: 768px) {
+    .ArticleGambit_gambit__cfP2b.ArticleGambit_small__dtbw7 {
+        font-size:16px;
+        line-height: 24px
+    }
+}
+
+.ArticleGambit_gambit__cfP2b.ArticleGambit_small__dtbw7 .ArticleGambit_dropcap__JWRON {
+    font-size: 65px;
+    line-height: 75px
+}
+
+@media(min-width: 768px) {
+    .ArticleGambit_gambit__cfP2b.ArticleGambit_small__dtbw7 .ArticleGambit_dropcap__JWRON {
+        font-size:75px;
+        line-height: 85px
+    }
+}
+
+.ArticleGambit_gambit__cfP2b.ArticleGambit_darkTheme__pqPnV {
+    color: #faf6f0
+}
+
+.ArticleGambit_gambit__cfP2b .ArticleGambit_hidden__048Jz {
+    display: none
+}
+
+.ArticleGambit_gambit__cfP2b .ArticleGambit_dropcap__JWRON {
+    font-family: Bluu Next,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,serif;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 95px;
+    padding-right: 10px;
+    margin-top: -20px;
+    float: left;
+    color: #b6a571;
+    position: relative;
+    top: 10px;
+    text-transform: uppercase
+}
+
+@media(min-width: 768px) {
+    .ArticleGambit_gambit__cfP2b .ArticleGambit_dropcap__JWRON {
+        font-size:120px;
+        line-height: 120px
+    }
+}
+
+@supports((-webkit-background-clip: text) or (background-clip:text)) {
+    .ArticleGambit_gambit__cfP2b .ArticleGambit_dropcap__JWRON {
+        color:transparent;
+        background-clip: text;
+        background-size: 500% 500%,100% 100%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: ArticleGambit_Gradient__JtOqQ 3s ease infinite
+    }
+
+    .ArticleGambit_gambit__cfP2b .ArticleGambit_dropcap__JWRON.ArticleGambit_default__bs8ip {
+        background-image: linear-gradient(-45deg,transparent 0 48%,hsla(0,0%,100%,.8) 50%,transparent 52% 100%),linear-gradient(45deg,#b6a571,#cdb373,#e7da9a)
+    }
+
+    .ArticleGambit_gambit__cfP2b .ArticleGambit_dropcap__JWRON.ArticleGambit_red__lYkUE {
+        background-image: linear-gradient(26deg,#81302e,#943330)
+    }
+
+    .ArticleGambit_gambit__cfP2b .ArticleGambit_dropcap__JWRON.ArticleGambit_green__mFPFq {
+        background-image: linear-gradient(169deg,#a4c3bc,#2f6a5d)
+    }
+
+    .ArticleGambit_gambit__cfP2b .ArticleGambit_dropcap__JWRON.ArticleGambit_blue__TDpAJ {
+        background-image: linear-gradient(37deg,#19375d,#1d3e6e 100%)
+    }
+
+    .ArticleGambit_gambit__cfP2b .ArticleGambit_dropcap__JWRON.ArticleGambit_yellow__aADh3 {
+        background-image: linear-gradient(40deg,#664816,#e79a20 100%)
+    }
+}
+
+.ArticleGambit_gambit__cfP2b.ArticleGambit_outcomeTheme__288zJ {
+    color: #faf6f0
+}
+
+.ArticleGambit_gambit__cfP2b.ArticleGambit_outcomeTheme__288zJ .ArticleGambit_dropcap__JWRON {
+    font-family: Bluu Next,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,serif;
+    font-weight: 700
+}
+
+[data-themed=true] .ArticleGambit_gambit__cfP2b {
+    color: var(--theme-text-color)
+}
+
+[data-themed=true] .ArticleGambit_gambit__cfP2b .ArticleGambit_dropcap__JWRON {
+    background-color: var(--theme-drop-cap-color);
+    background-image: var(--theme-drop-cap-bg-image,linear-gradient(-45deg,transparent 0 48%,hsla(0,0%,100%,.8) 50%,transparent 52% 100%),linear-gradient(45deg,#b6a571,#cdb373,#e7da9a))
+}
+
+@keyframes ArticleGambit_Gradient__JtOqQ {
+    0% {
+        background-position: 0 0
+    }
+
+    to {
+        background-position: 100% 100%
+    }
+}
+
+.Hero_p__OPG4Y,p.Hero_darkShineSilver__1SZFv {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.33
+}
+
+@media(min-width: 768px) {
+    .Hero_p__OPG4Y,p.Hero_darkShineSilver__1SZFv {
+        font-size:30px
+    }
+}
+
+.Hero_darkShineSilver__1SZFv,.Hero_goldShine__bUcEt,.Hero_lightSilverShine__yYFED {
+    line-height: 1.33;
+    letter-spacing: normal;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.Hero_darkShineSilver__1SZFv {
+    background-image: linear-gradient(139deg,#d5d5d5,#8f8c86)
+}
+
+.Hero_lightSilverShine__yYFED {
+    background-image: linear-gradient(281deg,#999,#fff 46%,#999)
+}
+
+.Hero_goldShine__bUcEt {
+    background-image: linear-gradient(96deg,#e7da9a,#cdb373 41%,#996e2d)
+}
+
+.Hero_eyeBrow__Kv6yX {
+    font-family: Bluu Next,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,serif;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 50px;
+    color: #fff;
+    text-transform: uppercase
+}
+
+.Hero_pageArea__YZRy1 {
+    padding: 40px 0 0
+}
+
+.Hero_center__2Wemf {
+    text-align: center
+}
+
+.Hero_h1__KPMBV,.Hero_h2__2_Tr1,.Hero_h3__La3tj,.Hero_h4__IYFHt {
+    letter-spacing: 2px;
+    line-height: 1.2em
+}
+
+.Hero_h1__KPMBV {
+    font-size: 36px
+}
+
+@media(min-width: 1042px) {
+    .Hero_h1__KPMBV {
+        font-size:60px
+    }
+}
+
+.Hero_h2__2_Tr1 {
+    font-size: 36px
+}
+
+@media(min-width: 1042px) {
+    .Hero_h2__2_Tr1 {
+        font-size:48px
+    }
+}
+
+.Hero_h3__La3tj {
+    font-size: 30px
+}
+
+@media(min-width: 1042px) {
+    .Hero_h3__La3tj {
+        font-size:50px
+    }
+}
+
+.Hero_h4__IYFHt {
+    font-size: 25px
+}
+
+@media(min-width: 1042px) {
+    .Hero_h4__IYFHt {
+        font-size:40px
+    }
+}
+
+.Hero_videoBackground__NA_Zt {
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: hidden
+}
+
+.Hero_videoBackground__NA_Zt,.Hero_videoBackground__NA_Zt video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0
+}
+
+.Hero_descriptionText__zC_gD {
+    max-width: 662px;
+    padding: 0 30px
+}
+
+.Hero_descriptionText__zC_gD>section[data-article-gambit=true] {
+    font-size: 16px;
+    line-height: 24px
+}
+
+.Hero_descriptionText__zC_gD>section[data-article-gambit=true] span>span>span {
+    position: relative;
+    bottom: -5px
+}
+
+.Hero_scrollIndicator__lq5ON {
+    position: relative
+}
+
+.Hero_scrollIndicator__lq5ON>div {
+    margin: 0
+}
+
+.Hero_shallow__cNPcd {
+    position: relative;
+    margin-bottom: 100px
+}
+
+.Hero_shallow__cNPcd .Hero_content__VSxmz {
+    position: relative;
+    height: auto
+}
+
+.Hero_shallow__cNPcd .Hero_content__VSxmz>* {
+    position: relative
+}
+
+.Hero_shallow__cNPcd .Hero_h1__KPMBV {
+    font-size: 26px;
+    line-height: 34px;
+    margin: 30px 0
+}
+
+@media(min-width: 768px) {
+    .Hero_shallow__cNPcd .Hero_h1__KPMBV {
+        font-size:45px;
+        line-height: 55px;
+        margin: 30px 0
+    }
+}
+
+.Hero_shallow__cNPcd .Hero_descriptionText__zC_gD {
+    font-size: 14px;
+    line-height: 1.43;
+    white-space: pre-line
+}
+
+@media(min-width: 768px) {
+    .Hero_shallow__cNPcd .Hero_descriptionText__zC_gD {
+        font-size:18px;
+        line-height: 25px
+    }
+}
+
+.Hero_descriptionTitle__SZJVZ {
+    color: #fff;
+    font-size: 26px;
+    line-height: 31.72px;
+    font-family: Mason Sans OT,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,serif;
+    font-weight: 700;
+    margin: 0 30px 25px
+}
+
+.Hero_wrapper__DRMNx {
+    --background-image: "none";
+    width: 100vw;
+    max-width: 100%;
+    background-image: var(--background-image);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    text-align: center;
+    background-color: #000
+}
+
+@media(max-width: 576px) {
+    .Hero_wrapper__DRMNx {
+        background-image:var(--background-image-mobile)
+    }
+}
+
+.Hero_wrapper__DRMNx.Hero_noImage__FMtps {
+    background-color: transparent
+}
+
+.Hero_wrapper__DRMNx .Hero_content__VSxmz {
+    justify-content: flex-start;
+    padding: 120px 0 200px;
+    min-height: 0
+}
+
+@media(min-width: 1042px) {
+    .Hero_wrapper__DRMNx .Hero_content__VSxmz {
+        padding-top:80px
+    }
+}
+
+.Hero_wrapper__DRMNx .Hero_content__VSxmz.Hero_modalHero__JynDU {
+    height: auto;
+    padding-bottom: 0
+}
+
+.Hero_wrapper__DRMNx :active,.Hero_wrapper__DRMNx :focus {
+    outline: 0
+}
+
+@media(-webkit-min-device-pixel-ratio: 2),(min-resolution:192dpi) {
+    .Hero_wrapper__DRMNx {
+        background-image:var(--background-image-2x)
+    }
+}
+
+@media(-webkit-min-device-pixel-ratio: 2)and (max-width:576px),(min-resolution:192dpi)and (max-width:576px) {
+    .Hero_wrapper__DRMNx {
+        background-image:var(--background-image-mobile)
+    }
+}
+
+@media(min-width: 1042px) {
+    .Hero_wrapper__DRMNx {
+        background-image:var(--background-image-2x)
+    }
+}
+
+.Hero_wrapper__DRMNx .headroom {
+    top: auto;
+    left: auto;
+    right: auto
+}
+
+.Hero_wrapper__DRMNx .headroom--unfixed {
+    position: relative;
+    transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    opacity: 1
+}
+
+.Hero_wrapper__DRMNx .headroom--scrolled {
+    opacity: 0
+}
+
+.Hero_wrapper__DRMNx .headroom--unpinned {
+    position: relative;
+    opacity: 0;
+    transition: opacity .5s;
+    -webkit-transition: opacity .5s
+}
+
+.Hero_wrapper__DRMNx .headroom--pinned {
+    position: relative
+}
+
+.Hero_wrapper__DRMNx .Hero_logo__e7IbV {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-bottom: 20px
+}
+
+@media(min-width: 1042px) {
+    .Hero_wrapper__DRMNx .Hero_logo__e7IbV {
+        width:150px;
+        height: 150px
+    }
+}
+
+.Hero_deep__D4LGU.Hero_wrapper__DRMNx .Hero_content__VSxmz {
+    padding: 42px 0 40px
+}
+
+@media(min-width: 1042px) {
+    .Hero_deep__D4LGU.Hero_wrapper__DRMNx .Hero_content__VSxmz {
+        padding:40px 0 48px
+    }
+}
+
+.Hero_deep__D4LGU .Hero_subtitle__1NDm_ {
+    margin: 0 30px
+}
+
+.Hero_deep__D4LGU .Hero_descriptionTitle__SZJVZ {
+    margin: 4px 30px 24px
+}
+
+@media(min-width: 1042px) {
+    .Hero_deep__D4LGU .Hero_descriptionTitle__SZJVZ {
+        margin:18px 30px 32px
+    }
+}
+
+.Hero_deep__D4LGU .Hero_h1__KPMBV {
+    font-weight: 400;
+    margin: 2px 30px 4px
+}
+
+@media(min-width: 1042px) {
+    .Hero_deep__D4LGU .Hero_h1__KPMBV {
+        margin:7px 30px 18px
+    }
+}
+
+.Hero_cta__zIL_f {
+    margin-top: 18px!important
+}
+
+@media(min-width: 1042px) {
+    .Hero_cta__zIL_f {
+        margin-top:27px!important
+    }
+}
+
+.Hero_extra-shallow__MB9TN {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 34px
+}
+
+@media(min-width: 1042px) {
+    .Hero_extra-shallow__MB9TN {
+        margin-bottom:40px;
+        padding: 64px 0
+    }
+}
+
+.Hero_extra-shallow__MB9TN .Hero_content__VSxmz {
+    position: relative;
+    height: auto;
+    padding: 0
+}
+
+@media(min-width: 1042px) {
+    .Hero_extra-shallow__MB9TN .Hero_content__VSxmz {
+        padding:0
+    }
+}
+
+.Hero_extra-shallow__MB9TN .Hero_content__VSxmz>* {
+    position: relative
+}
+
+.Hero_extra-shallow__MB9TN .Hero_h1__KPMBV {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 30px 0
+}
+
+@media(min-width: 1042px) {
+    .Hero_extra-shallow__MB9TN .Hero_h1__KPMBV {
+        font-size:46px;
+        line-height: 54px;
+        margin: 0
+    }
+}
+
+.Hero_extra-shallow__MB9TN .Hero_descriptionText__zC_gD {
+    display: none
+}
+
+.Hero_hasVideo__sfWzT.Hero_wrapper__DRMNx .Hero_content__VSxmz {
+    padding: 40px 0 36px
+}
+
+@media(min-width: 1042px) {
+    .Hero_hasVideo__sfWzT.Hero_wrapper__DRMNx .Hero_content__VSxmz {
+        padding:50px 0 72px
+    }
+}
+
+@media(min-width: 768px) {
+    .Hero_hasVideo__sfWzT.Hero_wrapper__DRMNx .Hero_h1__KPMBV {
+        margin:24px 0 20px
+    }
+}
+
+.Hero_content__VSxmz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 893px;
+    min-height: 740px;
+    position: relative
+}
+
+.Hero_content__VSxmz.Hero_large__HApv_,.Hero_content__VSxmz.Hero_tall__lC7T4 {
+    padding: 0 20px;
+    height: auto;
+    justify-content: normal;
+    max-height: none;
+    min-height: 0
+}
+
+.Hero_content__VSxmz.Hero_small__El_ys {
+    min-height: 0;
+    height: 700px
+}
+
+@media(min-width: 1042px) {
+    .Hero_content__VSxmz {
+        padding:0
+    }
+
+    .Hero_content__VSxmz.Hero_large__HApv_ {
+        background-size: cover
+    }
+}
+
+.Hero_eyebrow__7GpMA {
+    font-size: 11px;
+    line-height: 19.52px;
+    font-family: Mason Sans OT,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,serif;
+    text-transform: uppercase;
+    letter-spacing: 1.85px;
+    color: #dfdbd9;
+    margin: 0 30px
+}
+
+@media(min-width: 1042px) {
+    .Hero_eyebrow__7GpMA {
+        font-size:13px;
+        line-height: 21.96px
+    }
+}
+
+.Hero_h1__KPMBV {
+    max-width: 595px;
+    font-family: Bluu Next,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,serif;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #faf6f0;
+    font-size: 32px;
+    line-height: normal;
+    margin-top: 10px;
+    padding: 0 10px
+}
+
+.Hero_large__HApv_ .Hero_h1__KPMBV,.Hero_small__El_ys .Hero_h1__KPMBV {
+    font-size: 35px
+}
+
+.Hero_tall__lC7T4 .Hero_h1__KPMBV {
+    font-size: 28px;
+    line-height: 32px
+}
+
+.Hero_h1__KPMBV.Hero_gold___2TSt {
+    color: #ecbf77
+}
+
+@media(min-width: 768px) {
+    .Hero_h1__KPMBV {
+        font-size:36px;
+        line-height: 42px
+    }
+}
+
+@media(min-width: 1042px) {
+    .Hero_h1__KPMBV {
+        font-size:54px;
+        line-height: 56px
+    }
+
+    .Hero_large__HApv_ .Hero_h1__KPMBV {
+        font-size: 100px;
+        line-height: normal;
+        max-width: none;
+        margin-bottom: 36px
+    }
+
+    .Hero_tall__lC7T4 .Hero_h1__KPMBV {
+        font-size: 48px;
+        line-height: 52px;
+        max-width: none
+    }
+}
+
+.Hero_subtitle__1NDm_ {
+    font-family: Sofia Pro,Helvetica,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,sans-serif;
+    font-weight: 400;
+    max-width: 595px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    color: #dfdbd9;
+    padding: 0 10px
+}
+
+.Hero_large__HApv_ .Hero_subtitle__1NDm_ {
+    font-size: 18px;
+    line-height: 1.33
+}
+
+.Hero_tall__lC7T4 .Hero_subtitle__1NDm_ {
+    font-size: 16px;
+    line-height: 24px
+}
+
+@media(min-width: 1042px) {
+    .Hero_subtitle__1NDm_ {
+        white-space:pre-line
+    }
+
+    .Hero_large__HApv_ .Hero_subtitle__1NDm_,.Hero_subtitle__1NDm_ {
+        font-size: 22px;
+        line-height: 32px
+    }
+
+    .Hero_tall__lC7T4 .Hero_subtitle__1NDm_ {
+        font-size: 18px;
+        line-height: 24px
+    }
+}
+
+[data-themed=true] .Hero_wrapper__DRMNx .Hero_eyebrow__7GpMA {
+    color: var(--theme-text-color);
+    font-weight: 700
+}
+
+[data-themed=true] .Hero_wrapper__DRMNx .Hero_descriptionText__zC_gD,[data-themed=true] .Hero_wrapper__DRMNx .Hero_descriptionText__zC_gD>section[data-article-gambit=true],[data-themed=true] .Hero_wrapper__DRMNx .Hero_descriptionTitle__SZJVZ,[data-themed=true] .Hero_wrapper__DRMNx .Hero_h1__KPMBV {
+    color: var(--theme-text-color)
+}
+
+[data-themed=true] .Hero_wrapper__DRMNx .Hero_descriptionText__zC_gD>section[data-article-gambit=true]>span>span>span {
+    background-image: linear-gradient(-45deg,transparent 0 48%,hsla(0,0%,100%,.8) 50%,transparent 52% 100%),linear-gradient(45deg,var(--theme-hero-drop-cap-color),var(--theme-hero-drop-cap-color),var(--theme-hero-drop-cap-color))
+}
+
+.ArticleHeroImageSource_sourceDetails__65dZr {
+    color: #757575;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0;
+    margin-bottom: 25px;
+    font-family: Sofia Pro,Helvetica,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,sans-serif;
+    padding: 0 27.42px
+}
+
+.ArticleHeroImageSource_sourceDetails__65dZr a {
+    color: #85693d;
+    letter-spacing: 0;
+    text-decoration: underline
+}
+
+.ArticleHeroImageSource_heroImageSource__u4f_m {
+    position: relative
+}
+
+@media only screen and (min-width: 924px) {
+    .ArticleHeroImageSource_heroImageSource__u4f_m {
+        margin:auto auto 25px;
+        width: 914px;
+        box-sizing: border-box
+    }
+}
+
+.Error404_root__0Xbt7 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #10141b;
+    flex-direction: column
+}
+
+.Error404_root__0Xbt7 .Error404_rootInner__HfTFG {
+    flex: 1 1
+}
+
+.Error404_root__0Xbt7 img {
+    max-width: 595px;
+    margin: 150px auto 10px;
+    width: 100%
+}
+
+@media(min-width: 1042px) {
+    .Error404_root__0Xbt7 img {
+        margin:170px auto 40px
+    }
+}
+
+.Error404_root__0Xbt7 .Error404_buttonRow__HHTVL {
+    margin: 50px 0 0
+}
+
+@media(min-width: 1042px) {
+    .Error404_root__0Xbt7 .Error404_buttonRow__HHTVL {
+        margin:50px 0
+    }
+}
+
+.Error404_text__MB2s7 {
+    text-align: center;
+    font-family: Sofia Pro,Helvetica,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,sans-serif;
+    font-size: 24px
+}
+
+.Error404_imageSource__FD_cG {
+    width: 80%;
+    float: left;
+    padding: 20px
+}
+
+.ImageWithDetails_image_wrapper__c0Xr1 {
+    text-align: center;
+    text-decoration: unset;
+    margin-bottom: 25px
+}
+
+.ImageWithDetails_label__8w9HF {
+    font-family: Mason Sans OT,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.38;
+    letter-spacing: normal;
+    text-align: center;
+    color: #231e4e
+}
+
+@media(max-width: 768px) {
+    .ImageWithDetails_label__8w9HF {
+        font-size:14px;
+        line-height: 2.71
+    }
+}
+
+.ImageWithDetails_title__OGjrI {
+    width: 100%;
+    font-family: Sofia Pro,Helvetica,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #10141b
+}
+
+@media(max-width: 768px) {
+    .ImageWithDetails_title__OGjrI {
+        font-size:16px;
+        line-height: 1.5
+    }
+}
+
+.ImageWithDetails_writers_name__EIuAi {
+    margin: 12px 0
+}
+
+.ImageWithDetails_reading_time__krR7U,.ImageWithDetails_writers_name__EIuAi {
+    width: 100%;
+    font-family: Sofia Pro,Helvetica,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #777
+}
+
+.ImageWithDetails_reading_time__krR7U {
+    height: 24px;
+    margin-bottom: 25px
+}
+
+@media(min-width: 1042px) {
+    .ImageWithDetails_image_class__VlBb2 {
+        height:260px
+    }
+}
+
+.ImageWithDetails_articleImage__dTbNg {
+    width: 380px;
+    height: 285px
+}
+
+@media(max-width: 768px) {
+    .ImageWithDetails_articleImage__dTbNg {
+        width:315px;
+        height: 215px
+    }
+}
+
+.ImageWithDetails_detailsContainer__B3nHw {
+    margin: 0 auto;
+    width: 349px
+}
+
+@media(max-width: 768px) {
+    .ImageWithDetails_detailsContainer__B3nHw {
+        width:292px
+    }
+}
+
+.ImageWithDetailsListing_root__l8Trx {
+    width: 100%;
+    height: 100%;
+    background-color: #faf6f0
+}
+
+.ImageWithDetailsListing_more_to_explore__9r7z3 {
+    width: 100%;
+    font-family: Bluu Next,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,serif;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #10141b;
+    margin-bottom: 50px
+}
+
+.ImageWithDetailsListing_content__DASW_ {
+    text-align: center
+}
+
+.ImageWithDetailsListing_parent_block__BbSZs {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    text-align: center
+}
+
+@media(min-width: 768px) {
+    .ImageWithDetailsListing_parent_block__BbSZs {
+        grid-template-columns:auto
+    }
+}
+
+@media(min-width: 1042px) {
+    .ImageWithDetailsListing_parent_block__BbSZs {
+        grid-template-columns:auto auto
+    }
+}
+
+@media(min-width: 1320px) {
+    .ImageWithDetailsListing_parent_block__BbSZs {
+        grid-template-columns:auto auto auto
+    }
+}
+
+.HubMoreToExplore_root__z9j5c {
+    width: 100%;
+    height: 100%;
+    background-color: #faf6f0;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.HubMoreToExplore_root__z9j5c a img {
+    width: 360px;
+    height: 270px
+}
+
+.HubMoreToExplore_more_to_explore__GIvyH {
+    width: 100%;
+    font-family: Bluu Next,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,serif;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #10141b;
+    margin-bottom: 50px
+}
+
+.HubMoreToExplore_loading__swpm_ {
+    text-align: center;
+    color: #000;
+    padding: 10px
+}
+
+.HubMoreToExplore_infiniteload__uPxXA {
+    margin-top: 200px
+}
+
+.HubMoreToExplore_spinnerWrapper__ow_Jk {
+    position: relative;
+    height: 200px
+}
+
+.Hub_root___TT2F {
+    background-color: #faf6f0
+}
+
+@media(min-width: 1042px) {
+    .Hub_root___TT2F {
+        padding-left:100px;
+        padding-right: 100px
+    }
+}
+
+.Hub_curated__TnMGI {
+    padding: 0
+}
+
+/*# sourceMappingURL=958d62f08f8a1451.css.map*/
